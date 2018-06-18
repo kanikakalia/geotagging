@@ -47,6 +47,8 @@ function initMap() {
         fillOpacity: 0.35
       });
 
+      document.getElementById('json').innerHTML = "data : "+ JSON.stringify(latLngData, undefined, '\n');
+
     }
 
   });
